@@ -60,7 +60,7 @@
     "eslint-config-mourner": "^2.0.1",
     "express": "^4.13.4",
     "mapbox-gl": "0.51.0",
-    "mapbox-gl-js-mock": "0.28.0",
+    "mapbox-gl-js-mock": "1.0.2",
     "mock-browser": "^0.92.10",
     "nyc": "^12.0.1",
     "opener": "^1.4.1",
@@ -74,12 +74,12 @@
     "mapbox-gl": ">=0.27.0 <=0.51.0"
   },
   "dependencies": {
-    "@mapbox/geojson-area": "^0.2.1",
+    "@mapbox/geojson-area": "^0.2.2",
     "@mapbox/geojson-normalize": "0.0.1",
     "@mapbox/geojsonhint": "^2.0.0",
     "@mapbox/geojson-extent": "^0.3.2",
     "hat": "0.0.3",
-    "lodash.isequal": "^4.2.0",
+    "lodash.isequal": "^4.5.0",
     "@mapbox/point-geometry": "0.1.0",
     "xtend": "^4.0.1"
   }

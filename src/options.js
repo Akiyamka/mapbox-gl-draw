@@ -44,6 +44,7 @@ function addSources(styles, sourceBucket) {
 }
 
 module.exports = function(options = {}) {
+  console.debug('Setup', options && options.modes);
   let withDefaults = xtend(options);
 
   if (!options.controls) {
@@ -60,6 +61,6 @@ module.exports = function(options = {}) {
 
   // Layers with a shared source should be adjacent for performance reasons
   withDefaults.styles = addSources(withDefaults.styles, 'cold').concat(addSources(withDefaults.styles, 'hot'));
-
+  console.debug('Setup with defaults', withDefaults && withDefaults.modes);
   return withDefaults;
 };
